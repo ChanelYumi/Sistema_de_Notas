@@ -4,7 +4,7 @@
 #define MAX_ALUNOS 50
 
 // ----- STRUCT -----
-// Aqui a gente "junta" nome, matricula e nota em uma caixinha sÛ chamada Aluno
+// Aqui a gente "junta" nome, matricula e nota em uma caixinha s√≥ chamada Aluno
 struct Aluno {
     char nome[50];
     int matricula;
@@ -13,10 +13,10 @@ struct Aluno {
 
 // ----- Vetor (lista) que vai guardar todos os alunos cadastrados
 struct Aluno alunos[MAX_ALUNOS];
-int totalAlunos = 0; // quantos alunos j· foram cadastrados
+int totalAlunos = 0; // quantos alunos j√° foram cadastrados
 
 // ----- FUNCAO CADASTRAR -----
-// Realiza o cadastro de um novo aluno e armazena as informaÁıes em um vetor
+// Realiza o cadastro de um novo aluno e armazena as informa√ß√µes em um vetor
 
 void cadastrar() {
     
@@ -26,7 +26,7 @@ void cadastrar() {
         return;
     }
 
-    // Cria uma variavel tempor·ria para armazenar os dados do novo aluno
+    // Cria uma variavel tempor√°ria para armazenar os dados do novo aluno
 	struct Aluno novo;
 	
 	
@@ -41,7 +41,7 @@ void cadastrar() {
     scanf("%f", &novo.nota);
     
     
-	// Armazena o novo aluno na posiÁ„o disponÌvel do vetor
+	// Armazena o novo aluno na posi√ß√£o dispon√≠vel do vetor
 	alunos[totalAlunos] = novo;
 	
 	// Atualiza a quantidade de alunos cadastrados
@@ -74,7 +74,7 @@ void listar (){
 }
 
 // ----- FUNCAO BUSCAR -----
-// Busca um aluno cadastrado atravÈs da matricula
+// Busca um aluno cadastrado atrav√©s da matricula
 
 
 void buscar(){
@@ -87,7 +87,7 @@ void buscar(){
 	scanf("%d", &matriculaBusca);
 	
 	// Controla se o Aluno foi encontrado
-	// 0 = n„o encontrado | 1 = encontrado
+	// 0 = n√£o encontrado | 1 = encontrado
 	int encontrou = 0;
 	
 	
@@ -111,19 +111,42 @@ void buscar(){
 	
 	// Caso nenhum aluno tenha sido encontrado
 	if (encontrou == 0) {
-		printf("Aluno n„o encontrado.");
+		printf("Aluno n√£o encontrado.");
 	}
 			
 }
-    // ----- FEITO -----
-    // - Colega 1: Criada a struct Aluno (guarda nome, matricula e nota)
-    // e comeÁada a funcao cadastrar() (ja tem a verificacao de limite
-    // e a variavel "novo" pronta pra usar).
-    
-    // - colega 2: terminar a funcao cadastrar() (perguntar nome, matricula,
-    // nota, e guardar o aluno na lista) + fazer a funcao listar()
-    // e fazer a funcao buscar()
-    
-	// ----- FALTA -----
-	// - Colega 3:
-	//funcao main() (menu principal)
+
+int main() {
+
+    int opcao;
+
+    do {
+        printf("\n1 - Cadastrar\n");
+        printf("2 - Listar\n");
+        printf("3 - Buscar\n");
+        printf("4 - Sair\n");
+
+        printf("Digite uma opcao: ");
+        scanf("%d", &opcao);
+
+        if (opcao == 1) {
+            cadastrar();
+        }
+        else if (opcao == 2) {
+            listar();
+        }
+        else if (opcao == 3) {
+            buscar();
+        }
+        else if (opcao == 4) {
+            printf("Saindo...\n");
+        }
+        else {
+            printf("Opcao invalida!\n");
+        }
+
+    } while (opcao != 4);
+
+    return 0;
+}
+ 
