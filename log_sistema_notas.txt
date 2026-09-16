@@ -1,0 +1,90 @@
+Script started on Wed Sep 16 09:30:16 2026
+Restored session: Qua 16 Set 2026 09:09:41 -03
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://MacBook-Air-de-Chanel.local/Users/Academy/Desktop/PR%C3%81TICA%20PROFISSIONAL%20II/N1/Sistema_de_Notas[0m[27m[24m[JAcademy@MacBook-Air-de-Chanel Sistema_de_Notas % [K[?2004h../sistema_notas[?2004l
+
+1 - Cadastrar
+2 - Listar
+3 - Buscar
+4 - Sair
+Digite uma opcao: 1
+Digite o nome completo do aluno: Chanel Yumi
+Digite a matricula do aluno: 2345
+Digite a nota do aluno: 9
+
+Aluno cadastrado com sucesso!
+
+1 - Cadastrar
+2 - Listar
+3 - Buscar
+4 - Sair
+Digite uma opcao: 1
+Digite o nome completo do aluno: Leandro G
+Digite a matricula do aluno: 4567
+Digite a nota do aluno: 10
+
+Aluno cadastrado com sucesso!
+
+1 - Cadastrar
+2 - Listar
+3 - Buscar
+4 - Sair
+Digite uma opcao: 1
+Digite o nome completo do aluno: Mateus lopes
+Digite a matricula do aluno: 6789
+Digite a nota do aluno: 9.5
+
+Aluno cadastrado com sucesso!
+
+1 - Cadastrar
+2 - Listar
+3 - Buscar
+4 - Sair
+Digite uma opcao: 2
+
+--- ALUNO 1 ---
+Nome: Chanel Yumi
+Matricula: 2345
+Nota: 9.00
+
+--- ALUNO 2 ---
+Nome: Leandro G
+Matricula: 4567
+Nota: 10.00
+
+--- ALUNO 3 ---
+Nome: Mateus lopes
+Matricula: 6789
+Nota: 9.50
+
+1 - Cadastrar
+2 - Listar
+3 - Buscar
+4 - Sair
+Digite uma opcao: 3
+Digite a matricula do aluno: 4567
+Nome: Leandro G
+Matricula: 4567
+Nota: 10.00
+
+1 - Cadastrar
+2 - Listar
+3 - Buscar
+4 - Sair
+Digite uma opcao: 3
+Digite a matricula do aluno: 
+567   456
+Aluno nao encontrado.
+
+1 - Cadastrar
+2 - Listar
+3 - Buscar
+4 - Sair
+Digite uma opcao: 4
+Saindo...
+[1m[7m%[27m[1m[0m                                                                                                ]7;file://MacBook-Air-de-Chanel.local/Users/Academy/Desktop/PR%C3%81TICA%20PROFISSIONAL%20II/N1/Sistema_de_Notas[0m[27m[24m[JAcademy@MacBook-Air-de-Chanel Sistema_de_Notas % [K[?2004heexit[?2004l
+
+Saving session...
+...saving history...truncating history files...
+...completed.
+
+Script done on Wed Sep 16 09:43:02 2026
