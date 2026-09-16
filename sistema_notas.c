@@ -47,7 +47,7 @@ void cadastrar() {
 	// Atualiza a quantidade de alunos cadastrados
 	totalAlunos = totalAlunos + 1;
     
-    printf("\nAluno cadastrado com sucesso!");
+    printf("\nAluno cadastrado com sucesso!\n");
 
 }
 
@@ -111,7 +111,7 @@ void buscar(){
 	
 	// Caso nenhum aluno tenha sido encontrado
 	if (encontrou == 0) {
-		printf("Aluno não encontrado.");
+		printf("Aluno nao encontrado.\n");
 	}
 			
 }
