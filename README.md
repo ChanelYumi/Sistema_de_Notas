@@ -2,7 +2,7 @@
 
 Mini sistema em C para cadastro, consulta e gerenciamento de notas de alunos.
 
-**Integrantes:** Chanel Yumi, Leandro Gonçalves, Mateus Lopes
+**Integrantes:** Chanel Yumi, Leandro Gonçalves, Mateus Lopes, Pedro Lucca, Marcio Gabriel.
 
 ## Objetivo
 
