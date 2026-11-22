@@ -5,7 +5,7 @@
 
 // =====================================================
 // SISTEMA DE NOTAS - Entrega 2
-// Integrantes: Chanel Yumi, Leandro Goncalves, Mateus Lopes
+// Integrantes: Chanel Yumi, Leandro Goncalves, Mateus Lopes, Pedro Lucca, Marcio Gabriel
 // =====================================================
 
 int main() {
