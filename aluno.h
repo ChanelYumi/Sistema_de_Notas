@@ -2,7 +2,7 @@
 #define ALUNO_H
 
 // ----- CONSTANTES -----
-#define MAX_ALUNOS 50      // quantos alunos o sistema aguenta guardar
+#define MAX_ALUNOS 5      // quantos alunos o sistema aguenta guardar
 #define TAM_NOME 50        // tamanho maximo do nome
 #define NOTA_MINIMA 6.0    // nota minima para ser aprovado
 
